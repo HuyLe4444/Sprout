@@ -90,3 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 6106972249722972891}
+  parentAfterDrag: {fileID: 0}
+  hoverImagePrefab: {fileID: 1212475655483676455, guid: 474fc5962b3858f4e865eaa5d1ea6354, type: 3}
+  plantData: {fileID: 0}
+  currentResourceValue: 0

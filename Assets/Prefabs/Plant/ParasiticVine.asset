@@ -17,8 +17,8 @@ MonoBehaviour:
   rarity: 3
   plantType: 3
   baseResourceValue: 0
-  passiveDescription: "L\u1EA5y 50% \u0111i\u1EC3m l\u01B0\u01A1ng th\u1EF1c c\u1EE7a
-    c\xE1c c\xE2y trong c\xF9ng c\u1ED9t"
+  passiveDescription: "h\u1EF1c c\u1EE7a c\xE1c c\xE2y trong c\xF9ng c\u1ED9tc c\xE2y
+    trong c\xF9ng c\u1ED9t"
   affectsAdjacentTiles: 0
   affectsRow: 0
   affectsColumn: 1
