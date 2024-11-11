@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: test9
   m_EditorClassIdentifier: 
   plantName: 
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: e831e95520832d24baf50f77f883f17c, type: 3}
   rarity: 0
   plantType: 0
-  baseResourceValue: 0
+  baseResourceValue: 15
   passiveDescription: 
   affectsAdjacentTiles: 0
   affectsRow: 0

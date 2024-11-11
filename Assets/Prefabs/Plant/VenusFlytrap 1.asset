@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VenusFlytrap 1
   m_EditorClassIdentifier: 
   plantName: "N\u1EAFp \u1EA4m Venus"
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: cb0a3f2a74a90d74f991e0e41bf713b9, type: 3}
   rarity: 2
   plantType: 0
   baseResourceValue: -1

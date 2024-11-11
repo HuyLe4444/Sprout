@@ -20,7 +20,7 @@ public class SunflowerPlant : PlantSO
             foreach (var plant in affectedPlants)
             {
                 Debug.Log($"[Hướng Dương] Đang buff cho {plant.plantData.plantName}");
-                plant.ModifyResourceValue(1);
+                plant.ModifyResourceValue(source, 1);
             }
         };
     }

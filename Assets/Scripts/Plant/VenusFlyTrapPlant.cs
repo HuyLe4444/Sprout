@@ -20,8 +20,8 @@ public class VenusFlyTrapPlant : PlantSO
             foreach (var plant in affectedPlants)
             {
                 Debug.Log($"[Nắp Ấm Venus] Đang hút điểm từ {plant.plantData.plantName}");
-                plant.ModifyResourceValue(-2);
-                source.ModifyResourceValue(2);
+                plant.ModifyResourceValue(source, -2);
+                source.ModifyResourceValue(source, 2);
             }
         };
     }

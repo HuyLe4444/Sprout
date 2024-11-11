@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b93d4b111914494d82edf314197ee9f, type: 3}
   m_Name: test6
   m_EditorClassIdentifier: 
-  plantName: 
-  plantSprite: {fileID: 0}
+  plantName: 3
+  plantSprite: {fileID: 21300000, guid: f972ed3ad792e9b4881457b9c4dd9dee, type: 3}
   rarity: 0
   plantType: 0
-  baseResourceValue: 0
+  baseResourceValue: 63
   passiveDescription: 
   affectsAdjacentTiles: 0
   affectsRow: 0

@@ -21,6 +21,9 @@ public enum PlantType
     Mythical        // Cây thần thoại
 }
 
+// Thêm delegate để handle passive effects
+public delegate void PassiveEffect(InventoryItem source, InventoryItem[] affected);
+
 [CreateAssetMenu(fileName = "New Plant", menuName = "Garden/Plant")]
 public class PlantSO : ScriptableObject
 {
@@ -40,7 +43,11 @@ public class PlantSO : ScriptableObject
     public bool affectsColumn = false;
     public bool affectsDiagonal = false;
     
-    // Delegate để xử lý các hiệu ứng nội tại
-    public delegate void PassiveEffect(PlantController source, PlantController[] affectedPlants);
+    // Thêm delegate để xử lý passive
     public PassiveEffect OnPassiveTriggered;
 }
+
+
+// Delegate để xử lý các hiệu ứng nội tại
+    // public delegate void PassiveEffect(PlantController source, PlantController[] affectedPlants);
+    // public PassiveEffect OnPassiveTriggered;

@@ -22,13 +22,13 @@ public class ParasiticVinePlant : PlantSO
             {
                 int amountToSteal = plant.currentResourceValue / 2;
                 Debug.Log($"[Dây Leo Ký Sinh] Ký sinh {amountToSteal} điểm từ {plant.plantData.plantName}");
-                plant.ModifyResourceValue(-amountToSteal);
+                plant.ModifyResourceValue(source, -amountToSteal);
                 stolenResources += amountToSteal;
             }
             if (stolenResources > 0)
             {
                 Debug.Log($"[Dây Leo Ký Sinh] Tổng cộng ký sinh được {stolenResources} điểm");
-                source.ModifyResourceValue(stolenResources);
+                source.ModifyResourceValue(source, stolenResources);
             }
         };
     }
