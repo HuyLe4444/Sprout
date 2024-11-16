@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1488a732290294686a3ca7ee53fe8a, type: 3}
+  m_Name: Mandrake
+  m_EditorClassIdentifier: 
+  plantName: Mandrake (+10)
+  plantSprite: {fileID: 21300000, guid: 68429024e7bd70e43b7725fdd4d310ac, type: 3}
+  rarity: 3
+  plantType: 2
+  baseResourceValue: 10
+  passiveDescription: Scream - Reduces resource points of all non-Medicinal plants
+    in the same column by 3
+  affectsAdjacentTiles: 0
+  affectsRow: 0
+  affectsColumn: 1
+  affectsDiagonal: 0

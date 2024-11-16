@@ -105,16 +105,21 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
                 TextMeshProUGUI[] texts = currentHoverInstance.GetComponentsInChildren<TextMeshProUGUI>();
                 TextMeshProUGUI nameText = null;
                 TextMeshProUGUI passiveText = null;
+                TextMeshProUGUI typeText = null;
 
                 foreach (TextMeshProUGUI text in texts)
                 {
-                    if (text.gameObject.name == "Name")
+                    switch (text.gameObject.name)
                     {
-                        nameText = text;
-                    }
-                    else if (text.gameObject.name == "Passive")
-                    {
-                        passiveText = text;
+                        case "Name":
+                            nameText = text;
+                            break;
+                        case "Passive":
+                            passiveText = text;
+                            break;
+                        case "Type":
+                            typeText = text;
+                            break;
                     }
                 }
 
@@ -137,11 +142,51 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
                     passiveText.text = plantData.passiveDescription;
                 }
                 
-                // if (plantNameText != null)
-                // {
-                //     plantNameText.text = plantData.plantName;
-                // }
+                if (typeText != null)
+                {
+                    string typeDisplay = FormatPlantType(plantData.plantType);
+                    string rarityColor = GetRarityColor(plantData.rarity);
+                    typeText.text = $"<color={rarityColor}>{typeDisplay}</color>";
+                }
             }
+        }
+    }
+
+    private string FormatPlantType(PlantType type)
+    {
+        switch (type)
+        {
+            case PlantType.Carnivorous:
+                return "Carnivorous Plant";
+            case PlantType.Fruit:
+                return "Fruit Plant";
+            case PlantType.Medicinal:
+                return "Medicinal Plant";
+            case PlantType.Parasitic:
+                return "Parasitic Plant";
+            case PlantType.Mythical:
+                return "Mythical Plant";
+            default:
+                return type.ToString();
+        }
+    }
+
+    private string GetRarityColor(PlantRarity rarity)
+    {
+        switch (rarity)
+        {
+            case PlantRarity.Common:
+                return "#FFFFFF"; // White
+            case PlantRarity.Uncommon:
+                return "#00FF00"; // Green
+            case PlantRarity.Rare:
+                return "#0080FF"; // Blue
+            case PlantRarity.Epic:
+                return "#800080"; // Purple
+            case PlantRarity.Legendary:
+                return "#FFA500"; // Orange
+            default:
+                return "#FFFFFF"; // Default white
         }
     }
 
@@ -219,7 +264,7 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             // Tính lại tổng điểm
             RecalculateResourceValue();
             
-            LogManager.LogMessage($"{plantData.plantName} received {amount} points from {source.plantData.plantName}");
+            // LogManager.LogMessage($"{plantData.plantName} received {amount} points from {source.plantData.plantName}");
         }
     }
 
@@ -269,7 +314,7 @@ public class InventoryItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
             }
         }
 
-        LogManager.LogMessage($"[{plantData.plantName}] Applying passive effect to {affectedItems.Count} plants");
+        // LogManager.LogMessage($"[{plantData.plantName}] Applying passive effect to {affectedItems.Count} plants");
         plantData.OnPassiveTriggered?.Invoke(this, affectedItems.ToArray());
     }
 

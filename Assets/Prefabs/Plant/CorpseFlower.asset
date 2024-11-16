@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f315e6667c4ae0408a3f4fa66f2252c, type: 3}
+  m_Name: CorpseFlower
+  m_EditorClassIdentifier: 
+  plantName: Corpse Flower (+9)
+  plantSprite: {fileID: 0}
+  rarity: 3
+  plantType: 0
+  baseResourceValue: 9
+  passiveDescription: Carrion Attraction - Doubles the resource points of all Carnivorous
+    plants in the same column
+  affectsAdjacentTiles: 0
+  affectsRow: 0
+  affectsColumn: 1
+  affectsDiagonal: 0

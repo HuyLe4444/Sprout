@@ -46,8 +46,3 @@ public class PlantSO : ScriptableObject
     // Thêm delegate để xử lý passive
     public PassiveEffect OnPassiveTriggered;
 }
-
-
-// Delegate để xử lý các hiệu ứng nội tại
-    // public delegate void PassiveEffect(PlantController source, PlantController[] affectedPlants);
-    // public PassiveEffect OnPassiveTriggered;
