@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PitcherPlant
   m_EditorClassIdentifier: 
   plantName: Pitcher Plant (+5)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: 21699b0bf69bbf0429776a89e8aa0a02, type: 3}
   rarity: 1
   plantType: 0
   baseResourceValue: 5

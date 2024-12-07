@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DragonsBreath
   m_EditorClassIdentifier: 
   plantName: Dragon's Breath (+15)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: 38bbb125910d8bb4e835485f3ac98a88, type: 3}
   rarity: 4
   plantType: 0
   baseResourceValue: 15

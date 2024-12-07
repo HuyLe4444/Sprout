@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: JadeVine
   m_EditorClassIdentifier: 
   plantName: Jade Vine (+4)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: d438d6a1fe09db34987b4bdf84d6aba9, type: 3}
   rarity: 1
   plantType: 3
   baseResourceValue: 4

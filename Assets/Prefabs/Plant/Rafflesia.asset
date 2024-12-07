@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Rafflesia
   m_EditorClassIdentifier: 
   plantName: Rafflesia +(15)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: 74c7397a53c09c741968a6eaccdb4e26, type: 3}
   rarity: 4
   plantType: 3
   baseResourceValue: 15

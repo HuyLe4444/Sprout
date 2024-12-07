@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Yggdrasil
   m_EditorClassIdentifier: 
   plantName: Yggdrasil (+12)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: ac8640b718df9e14198b31c6eda0be12, type: 3}
   rarity: 3
   plantType: 4
   baseResourceValue: 12

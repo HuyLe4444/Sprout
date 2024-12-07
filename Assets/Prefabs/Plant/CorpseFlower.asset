@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CorpseFlower
   m_EditorClassIdentifier: 
   plantName: Corpse Flower (+9)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: 0edd1e9934685dc4c8760c44a07f6c75, type: 3}
   rarity: 3
   plantType: 0
   baseResourceValue: 9

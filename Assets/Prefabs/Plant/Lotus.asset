@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lotus
   m_EditorClassIdentifier: 
   plantName: Lotus (+7)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: 7941930ce507e7e4290775e1e856f3e9, type: 3}
   rarity: 2
   plantType: 4
   baseResourceValue: 7

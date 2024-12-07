@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Moonflower
   m_EditorClassIdentifier: 
   plantName: Moonflower (+7)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: 58ab538096078f1439a267df639b50ea, type: 3}
   rarity: 2
   plantType: 4
   baseResourceValue: 7

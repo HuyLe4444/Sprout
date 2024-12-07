@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pineapple
   m_EditorClassIdentifier: 
   plantName: Pineapple (+4)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: 4517d18c1e653bf43b26dd81ee8b1347, type: 3}
   rarity: 0
   plantType: 1
   baseResourceValue: 4

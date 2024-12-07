@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Baobab
   m_EditorClassIdentifier: 
   plantName: Baobab (+10)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: 6791aa146f202e442b34f75f5b8d206f, type: 3}
   rarity: 3
   plantType: 4
   baseResourceValue: 10

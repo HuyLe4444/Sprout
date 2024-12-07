@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ginkgo
   m_EditorClassIdentifier: 
   plantName: Ginkgo (+5)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: ca41876d72ecab549a93caf588c37ebb, type: 3}
   rarity: 2
   plantType: 2
   baseResourceValue: 6

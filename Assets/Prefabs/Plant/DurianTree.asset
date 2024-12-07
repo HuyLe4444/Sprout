@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DurianTree
   m_EditorClassIdentifier: 
   plantName: Durian Tree (+5)
-  plantSprite: {fileID: 0}
+  plantSprite: {fileID: 21300000, guid: a293dc7f551e964469fddd157d55ac3e, type: 3}
   rarity: 1
   plantType: 1
   baseResourceValue: 5
